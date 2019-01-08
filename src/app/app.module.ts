@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { IntroductionComponent } from './introduction/introduction.component';
 import { EducationComponent } from './education/education.component';
 import { TechnicalskillsComponent } from './technicalskills/technicalskills.component';
+import { ContactdetailsComponent } from './contactdetails/contactdetails.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { TechnicalskillsComponent } from './technicalskills/technicalskills.comp
     AppComponent,
     IntroductionComponent,
     EducationComponent,
-    TechnicalskillsComponent
+    TechnicalskillsComponent,
+    ContactdetailsComponent
   ],
   imports: [
     BrowserModule
